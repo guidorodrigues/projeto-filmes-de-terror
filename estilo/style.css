@@ -72,6 +72,7 @@ nav a:hover{
 main{
     background-color: var(--cor0);
     max-width: 1000px;
+    height: 100% 100%;
     border-radius: 0px 0px 10px 10px;
     margin-bottom: 30px;
     margin: auto;
