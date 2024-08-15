@@ -44,7 +44,7 @@ header p{
     font-size: 1.2em;
     max-width: 500px;
     margin: auto;
-    padding:  0px 10px 0px 10px;
+    padding-bottom: 20px;
     color: var(--cor0);
     text-align: center;
 }
@@ -86,7 +86,9 @@ section{
 }
 section h2{
     background-image: linear-gradient(to right,var(--cor7), var(--cor1));
+    border-radius: 10px;
     color: var(--cor0);
+    margin: 10px;
     padding: 10px;
 }
 section p{
