@@ -16,8 +16,8 @@
     --cor8: #fa7e7a;
 
 
-    --font1: Verdana, Geneva, Tahoma, sans-serif;
-    --font2: 'Bebas Neue'
+    --font1: Verdana, Tahoma, sans-serif;
+    --font2: "Bebas Neue", sans-serif;
 }
 
 body{
@@ -34,6 +34,7 @@ header{
 }
 header h1{
     color: var(--cor0);
+    font-family: var(--font2);
     margin-bottom: 20px;
     font-variant-caps: small-caps;
     font-size: 3em;
@@ -57,11 +58,15 @@ nav{
 a{
     color: var(--cor0);
     text-decoration: none;
-    padding: 10px;
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 5px;
 }
-a:hover{
+nav a:hover{
     text-decoration: underline;
-    background-color: var(--cor3);
+    background-color: var(--cor1);
+    color: var(--cor0);
+    
 }
 
 main{
@@ -79,6 +84,12 @@ main h1{
     font-size: 2.2em;
     font-variant-caps: small-caps;
 }
+main p{
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 2em;
+}
 
 
 section{
@@ -88,6 +99,7 @@ section h2{
     background-image: linear-gradient(to right,var(--cor7), var(--cor1));
     border-radius: 10px;
     color: var(--cor0);
+    font-family: var(--font2);
     margin: 10px;
     padding: 10px;
 }
@@ -99,10 +111,14 @@ section p{
     
 }
 
+
+.thunb{
+    height: 50vh;
+    
+}
 img{
-   height: 100%;
+   height: 100% 100%;
    background-size: cover;
-   transform: translate(50% 50%);
    display: block;
    margin: auto;
    padding: 10px;
@@ -114,8 +130,12 @@ img{
 
 footer{
     background-color: var(--cor1);
+    text-decoration: none;
     font-family: var(--font1);
     color: var(--cor0);
     text-align: center;
     padding: 10px;
+}
+footer a:hover{
+    text-decoration: underline;
 }
