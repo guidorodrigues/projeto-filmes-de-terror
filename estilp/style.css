@@ -1,0 +1,119 @@
+@charset 'UTF-8';
+*{
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor0: white;
+    --cor1: #240403;
+    --cor2: #410705;
+    --cor3: #5D0A07;
+    --cor4: #780D0A;
+    --cor5: #95100C;
+    --cor6: #B1140E;
+    --cor7: #CD1710;
+    --cor8: #fa7e7a;
+
+
+    --font1: Verdana, Geneva, Tahoma, sans-serif;
+    --font2: 'Bebas Neue'
+}
+
+body{
+    background-color: var(--cor8);
+}
+
+header{
+    background-image: linear-gradient(to bottom, var(--cor1), var(--cor7));
+    padding-top: 40px;
+    min-height: 150px;
+   font-family: var(--font1);
+   
+
+}
+header h1{
+    color: var(--cor0);
+    margin-bottom: 20px;
+    font-variant-caps: small-caps;
+    font-size: 3em;
+    text-align: center;
+}
+header p{
+    font-weight: bold;
+    font-size: 1.2em;
+    max-width: 500px;
+    margin: auto;
+    padding:  0px 10px 0px 10px;
+    color: var(--cor0);
+    text-align: center;
+}
+
+nav{
+    padding-top: 10px;
+    padding-bottom: 10px;  
+    text-align: center; 
+}
+a{
+    color: var(--cor0);
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover{
+    text-decoration: underline;
+    background-color: var(--cor3);
+}
+
+main{
+    background-color: var(--cor0);
+    max-width: 1000px;
+    border-radius: 0px 0px 10px 10px;
+    margin-bottom: 30px;
+    margin: auto;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    font-family: var(--font1);
+}
+main h1{
+    text-align: center;
+    font-size: 2.2em;
+    font-variant-caps: small-caps;
+}
+
+
+section{
+    margin-top: 30px;
+}
+section h2{
+    background-image: linear-gradient(to right,var(--cor7), var(--cor1));
+    color: var(--cor0);
+    padding: 10px;
+}
+section p{
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 2em;
+    
+}
+
+img{
+   height: 100%;
+   background-size: cover;
+   transform: translate(50% 50%);
+   display: block;
+   margin: auto;
+   padding: 10px;
+   
+}
+
+
+
+
+footer{
+    background-color: var(--cor1);
+    font-family: var(--font1);
+    color: var(--cor0);
+    text-align: center;
+    padding: 10px;
+}
