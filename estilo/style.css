@@ -1,10 +1,12 @@
 @charset 'UTF-8';
-*{
+
+* {
     margin: 0px;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
-:root{
+:root {
     --cor0: white;
     --cor1: #240403;
     --cor2: #410705;
@@ -20,19 +22,20 @@
     --font2: "Bebas Neue", sans-serif;
 }
 
-body{
+body {
     background-color: var(--cor8);
 }
 
-header{
+header {
     background-image: linear-gradient(to bottom, var(--cor1), var(--cor7));
     padding-top: 40px;
     min-height: 150px;
-   font-family: var(--font1);
-   
+    font-family: var(--font1);
+
 
 }
-header h1{
+
+header h1 {
     color: var(--cor0);
     font-family: var(--font2);
     margin-bottom: 20px;
@@ -40,7 +43,8 @@ header h1{
     font-size: 3em;
     text-align: center;
 }
-header p{
+
+header p {
     font-weight: bold;
     font-size: 1.2em;
     max-width: 500px;
@@ -50,26 +54,36 @@ header p{
     text-align: center;
 }
 
-nav{
+nav {
     padding-top: 10px;
-    padding-bottom: 10px;  
-    text-align: center; 
+    padding-bottom: 10px;
+    text-align: center;
 }
-a{
+
+a {
     color: var(--cor0);
     text-decoration: none;
     font-weight: bolder;
     border-radius: 5px;
     padding: 5px;
 }
-nav a:hover{
-    text-decoration: underline;
+
+nav a:hover {
+    
     background-color: var(--cor1);
     color: var(--cor0);
-    
+
 }
 
-main{
+#filme a {
+    background-color: var(--cor7);
+    text-decoration: none;
+}
+#filme a:hover{
+    background-color: var(--cor1);
+}
+
+main {
     background-color: var(--cor0);
     max-width: 1000px;
     height: 100% 100%;
@@ -80,12 +94,14 @@ main{
     padding-bottom: 20px;
     font-family: var(--font1);
 }
-main h1{
+
+main h1 {
     text-align: center;
     font-size: 2.2em;
     font-variant-caps: small-caps;
 }
-main p{
+
+main p {
     padding: 10px;
     text-align: justify;
     line-height: 1.5em;
@@ -93,40 +109,42 @@ main p{
 }
 
 
-section{
+section {
     margin-top: 30px;
 }
-section h2{
-    background-image: linear-gradient(to right,var(--cor7), var(--cor1));
+
+section h2 {
+    background-image: linear-gradient(to right, var(--cor7), var(--cor1));
     border-radius: 10px;
     color: var(--cor0);
     font-family: var(--font2);
     margin: 10px;
     padding: 10px;
 }
-section p{
+
+section p {
     padding: 10px;
     text-align: justify;
     line-height: 1.5em;
     text-indent: 2em;
-    
+
 }
 
 
 
-img{
-   height: 100% 100%;
-   background-size: cover;
-   display: block;
-   margin: auto;
-   padding: 10px;
-   
+img {
+    height: 100% 100%;
+    background-size: cover;
+    display: block;
+    margin: auto;
+    padding: 10px;
+
 }
 
 
 
 
-footer{
+footer {
     background-color: var(--cor1);
     text-decoration: none;
     font-family: var(--font1);
@@ -134,6 +152,7 @@ footer{
     text-align: center;
     padding: 10px;
 }
-footer a:hover{
+
+footer a:hover {
     text-decoration: underline;
 }
